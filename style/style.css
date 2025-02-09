@@ -7,7 +7,7 @@ html, body {
     font-family: Arial, sans-serif;
 }
 
-/* Dark mode scrollbar */
+/* Dark mode scrollbar*/
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -23,4 +23,15 @@ html, body {
 
 ::-webkit-scrollbar-thumb:hover {
     background: #777;
+} 
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    body {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
 }

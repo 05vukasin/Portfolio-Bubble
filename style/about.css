@@ -62,17 +62,17 @@
 /* Responsive Styles */
 @media (max-width: 768px) {
     .about {
-        padding: 30px 5%;
+        padding: 30px;
         height: auto;
     }
 
     .about-container {
-        padding: 30px;
+        padding: 15px;
         max-width: 90%;
     }
 
     .about h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .about p {
