@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animirani Mehurići</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/bubble.css">
+    <link rel="stylesheet" href="style/hero.css">
+    <link rel="stylesheet" href="style/about.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<section class="hero">
+    <div class="text-container">
+        <div class="text">
+            <span class="prvi">SKALIRAJTE SVOJ </span>
+            <span class="drugi"> BIZNIS </span>
+        </div>
+    </div>
+
+    <div class="gradient-bg">
+        <svg xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <filter id="goo">
+                    <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -8" result="goo" />
+                    <feBlend in="SourceGraphic" in2="goo" />
+                </filter>
+            </defs>
+        </svg>
+        
+        <div class="gradients-container">
+            <div class="g1"></div>
+            <div class="g2"></div>
+            <div class="g3"></div>
+            <div class="g4"></div>
+            <div class="g5"></div>
+            <div class="interactive"></div>
+        </div>
+    </div>
+</section>
+<section class="about">
+    <div class="about-container">
+        <h2>Automatizacija i Digitalna Transformacija</h2>
+        <p>
+            Specijalizujemo se za izradu aplikacija, baza podataka i automatizaciju poslovnih procesa. 
+            Uz pomoć naprednih tehnologija, pomažemo firmama da optimizuju rad, povećaju efikasnost i 
+            smanje troškove kroz pametna softverska rešenja.
+        </p>
+        <button class="about-button">Kontakt</button>
+    </div>
+</section>
+
+
+    
+
+    <script src="script/bubble.js"></script>
+    <script src="script/main.js"></script>
+</body>
+</html>

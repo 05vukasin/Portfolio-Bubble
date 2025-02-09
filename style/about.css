@@ -1,0 +1,87 @@
+/* About Section - Futuristic Design */
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, rgba(32,32,32,0.9), rgba(12,12,12,0.9));
+    text-align: center;
+    padding: 50px 10%;
+    position: relative;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.about-container {
+    max-width: 800px;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #bbb;
+}
+
+.about-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3), 0 0 40px rgba(255, 255, 255, 0.1) inset;
+    transition: all 0.3s ease;
+}
+
+.about-button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4), 0 0 50px rgba(255, 255, 255, 0.2) inset;
+    transform: scale(1.1);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .about {
+        padding: 30px 5%;
+        height: auto;
+    }
+
+    .about-container {
+        padding: 30px;
+        max-width: 90%;
+    }
+
+    .about h2 {
+        font-size: 2rem;
+    }
+
+    .about p {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+
+    .about-button {
+        padding: 12px 30px;
+        font-size: 1rem;
+    }
+}
