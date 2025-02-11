@@ -2,7 +2,7 @@
     position: absolute;
     background: none;
     border: none;
-    bottom: 30px;
+    bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 60px;
@@ -19,5 +19,11 @@
     }
     50% {
         transform: translateX(-50%) translateY(10px);
+    }
+}
+
+@media (max-width: 768px) {
+    .down-arrow{
+        bottom: 50px;
     }
 }
