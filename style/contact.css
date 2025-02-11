@@ -1,0 +1,103 @@
+/* Globalna pozadina - dramatičan prelaz iz ljubičaste u crnu */
+body {
+    background: radial-gradient(circle at left top, #69009d, #230036,#000000,#000000);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+/* Sekcija kontakt */
+.contact {
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+    padding: 60px 10%;
+    position: relative;
+    overflow: hidden;
+    height: 450px;
+}
+
+/* Kontakt kontejner */
+.contact-container {
+    max-width: 600px;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Kontakt lista */
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-list li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 1.2rem;
+    color: #bbb;
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.contact-list li i {
+    font-size: 1.5rem;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.contact-list li a {
+    text-decoration: none;
+    color: #ddd;
+    transition: color 0.3s ease;
+}
+
+/* Hover efekti */
+.contact-list li:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.contact-list li:hover i {
+    color: #ffffff;
+}
+
+.contact-list li:hover a {
+    color: #ffffff;
+}
+
+/* Strelica za povratak */
+
+.back-arrow{
+   margin:25px;
+}
+.back-arrow a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+/* Responsivan dizajn */
+@media (max-width: 768px) {
+    .contact {
+        padding: 30px;
+        height: auto;
+    }
+
+    .contact-container {
+        padding: 15px;
+        max-width: 90%;
+    }
+
+    .contact-list li {
+        font-size: 1rem;
+    }
+}

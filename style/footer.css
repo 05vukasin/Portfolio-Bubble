@@ -1,0 +1,76 @@
+/* Glavni stil footera */
+.footer {
+    background: #121212;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Kontejner za raspored */
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Logo i opis */
+.footer-logo img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+.footer-logo p {
+    font-size: 14px;
+    opacity: 0.8;
+    max-width: 250px;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-nav ul li {
+    margin: 5px 0;
+}
+.footer-nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.footer-nav ul li a:hover {
+    color: #8ed2ff;
+}
+
+/* Društvene mreže */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.social-icons a {
+    font-size: 24px;
+    color: white;
+    transition: color 0.3s ease;
+}
+.social-icons a:hover {
+    color: #7be0ff;
+}
+
+/* Donji deo footera */
+.footer-bottom {
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+/* Responsivan dizajn */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
