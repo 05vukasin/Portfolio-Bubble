@@ -1,0 +1,23 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "SoftMake.rs",
+    "url": "https://softmake.rs",
+    "logo": "https://softmake.rs/img/logo.png",
+    "description": "SoftMake.rs - Razvoj softvera, izrada web i mobilnih aplikacija, e-commerce platformi i automatizacija poslovnih sistema.",
+    "sameAs": [
+      "https://www.facebook.com/profile.php?id=61572795044978",
+      "https://www.instagram.com/yourprofile",
+      "https://www.linkedin.com/in/yourprofile",
+      "https://twitter.com/yourprofile"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+381600000000",
+      "contactType": "customer service",
+      "email": "info@softmake.rs",
+      "areaServed": "RS",
+      "availableLanguage": ["Serbian", "English"]
+    }
+  }
+  
